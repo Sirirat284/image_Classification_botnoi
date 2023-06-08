@@ -6,5 +6,5 @@ requests
 keras
 tqdm
 LinearSVC
-pickle
+
 
