@@ -1,4 +1,4 @@
-'/home/appuser/venv/bin/python -m pip install --upgrade pip' 
+pip install --upgrade pip' 
 absl-py==0.15.0
 aiohttp==3.8.3
 aiosignal==1.2.0
