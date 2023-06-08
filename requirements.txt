@@ -9,7 +9,7 @@ tqdm==4.62.3
 Pillow==8.4.0
 requests==2.26.0
 moviepy==1.0.3
-multiprocess==0.70.15
+multiprocess==0.70.14
 tensorflow==2.7.0
 stqdm==0.0.5
 streamlit-custom-notification-box==0.1.2
