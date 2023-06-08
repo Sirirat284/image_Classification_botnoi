@@ -6,6 +6,5 @@ requests
 keras
 tqdm
 LinearSVC
-train_test_split
 TfidfVectorizer
 BytesIO
