@@ -4,8 +4,6 @@ numpy
 opencv-python
 requests
 keras
-preprocess_input
-MobileNet
 tqdm
 LinearSVC
 train_test_split
