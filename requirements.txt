@@ -1,0 +1,13 @@
+streamlit
+pandas 
+numpy
+opencv-python
+requests
+VGG16
+preprocess_input
+MobileNet
+tqdm
+LinearSVC
+train_test_split
+TfidfVectorizer
+BytesIO
