@@ -36,7 +36,7 @@ def encode_img_to_vec(image_data):
   # อ่านข้อมูลรูปภาพและแปลงเป็นรูปแบบที่ OpenCV ใช้งานได้
   image_array = np.asarray(bytearray(image_data), dtype=np.uint8)
   image = cv2.imdecode(image_array, cv2.IMREAD_COLOR)
-  resized_image = cv2.resize(image, (224, 224))
+  resized_image = cv2.resize(image, (100, 100))
   # โหลดโมเดล VGG16 
   model = VGG16(weights='imagenet', include_top=False)
 
