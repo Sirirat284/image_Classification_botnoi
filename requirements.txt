@@ -8,3 +8,4 @@ keras
 tqdm
 tensorflow
 scikit-learn
+streamlit_custom_notification_box 
