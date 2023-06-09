@@ -10,7 +10,7 @@ import requests
 import io
 
 
-from moviepy.editor import VideoFileClip
+
 
 from keras.applications.vgg16 import VGG16
 from keras.applications.vgg16 import preprocess_input
