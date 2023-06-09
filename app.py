@@ -17,7 +17,6 @@ from keras.applications.vgg16 import preprocess_input
 from keras.applications.mobilenet import MobileNet
 
 from tqdm import tqdm
-from stqdm import stqdm
 
 from sklearn.svm import LinearSVC
 import pickle
