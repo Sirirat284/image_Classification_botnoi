@@ -1,7 +1,7 @@
 streamlit
 pandas 
 numpy
-opencv-python
+opencv-python==4.7.0.72
 requests
 keras
 tqdm
