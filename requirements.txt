@@ -6,3 +6,4 @@ requests
 keras
 tqdm
 LinearSVC
+tensorflow==2.6.0
