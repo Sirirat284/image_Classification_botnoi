@@ -90,12 +90,14 @@ def trainmodel(res):
     print('success')
   # return clf
 
+@st.cache_resource
 def prediction_from_URL(imgurl,clf):
   featList = []
   cvo = encode(imgurl)
   featList.append(cvo)
   dat = pd.DataFrame(data=[featList]).T
   return clf.predict(np.vstack(dat[0].values))[0]
+@st.cache_resource
 def prediction_from_img(image_data,clf):
   featList = []
   cvo = encode_img_to_vec(image_data)
